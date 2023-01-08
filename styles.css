@@ -1,0 +1,89 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.heading{
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+.card_control{
+    max-height: 100vh;
+    min-width: 100%;
+    display: flex;
+}
+.card{
+    background-color: rgb(174, 174, 255);
+    height: 300px;
+    width: 350px;
+    /* margin-top: 250px;
+    margin-left: 560px; */
+    /* margin-top: 0px; */
+    margin: 50px 250px 250px 250px;
+    border-radius: 10%;
+    justify-content: center;
+    text-align: center;
+    border: solid;
+}
+.card:hover{
+    background-color: rgb(164, 164, 162);
+}
+.list{
+    display: flex;
+    /* flex-wrap: nowrap; */
+    text-align: left;
+    justify-content: center;
+    padding: 50px;
+}
+.info{
+    margin: 150px;
+}
+
+img{
+    margin-top: 10px;
+    margin-left: 640px;
+}
+
+.imag{
+    width:40%;
+    float: left;
+    margin: 0;
+    margin-right: 30px;
+    border-radius: 10%;
+    /* display: flex; */
+
+}
+#secret{
+    color: aliceblue;
+    text-align: center;
+    font-size: 90px;
+}
+.imag1{
+    width:30%;
+    float: right;
+    margin: 0;
+    margin-left: 30px;
+    border-radius: 10%;
+}
+.content{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    /* display: flex; */
+    justify-content: center;
+    text-align:left;
+    color: aliceblue;
+}
+
+#later{
+    text-align: center;
+    font-size: 30px;
+    margin: 150px;
+}
+
+body{
+    /* background-color: rgb(147, 148, 165); */
+    background-image: url(https://wallpapercave.com/wp/wp3165100.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
