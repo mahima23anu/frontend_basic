@@ -12,23 +12,48 @@
     max-height: 100vh;
     min-width: 100%;
     display: flex;
+    justify-content: center;
+    gap: 300px;
+    /* flex-wrap: wrap; */
+
+
+
+    /* max-height: 100vh;
+    min-width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; */
 }
+
 .card{
     background-color: rgb(174, 174, 255);
-    height: 300px;
-    width: 350px;
+    /* height: 300px;
+    width: 350px; */
+    /* max-width: 100%; */
     /* margin-top: 250px;
     margin-left: 560px; */
     /* margin-top: 0px; */
-    margin: 50px 250px 250px 250px;
+    /* margin: 50px 250px 250px 250px;
     border-radius: 10%;
     justify-content: center;
     text-align: center;
     border: solid;
+    position:relative; */
+    width: 20%;
+    float: left;
+    border: 2px solid rgb(8, 8, 8);
+    border-radius: 10%;
+    /* display:inline;
+    justify-content: center; */
 }
 .card:hover{
     background-color: rgb(164, 164, 162);
 }
+.card h1{
+    display: flex;
+    justify-content: center;
+} 
 .list{
     display: flex;
     /* flex-wrap: nowrap; */
@@ -90,4 +115,18 @@ body{
     background-image: url(https://wallpapercave.com/wp/wp3165100.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.bg{
+    height: 350px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+}
+
+@media screen and (min-width: 1000px){
+    .card_control .info .info1{
+        flex-wrap: wrap;
+    }
 }
